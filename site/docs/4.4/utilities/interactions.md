@@ -23,7 +23,7 @@ Customize the available classes by changing the `$user-selects` Sass list in `_v
 Change the cursor from a default value to `pointer` with our built-in utility.
 
 {% capture example %}
-<span role="button">Non-button element button</span>
+<span role="button" class="cursor-pointer">Non-button element button</span>
 {% endcapture %}
 {% include example.html content=example %}
 
