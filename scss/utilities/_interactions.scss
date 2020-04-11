@@ -1,0 +1,7 @@
+@each $value in $user-selects {
+  .user-select-#{$value} { user-select: $value !important; }
+}
+
+@each $value in $cursors {
+  .cursor-#{$value} { cursor: $value !important; }
+}
